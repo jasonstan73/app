@@ -9,7 +9,7 @@ on:
 
 jobs:
   Build:
-    uses: /app/.github/workflows/desktop.release.reuse.yml@main
+    uses: /jasonstan73/app/.github/workflows/desktop.release.reuse.yml@main
     secrets: inherit
     with:
       channel: prod

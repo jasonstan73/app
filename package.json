@@ -74,5 +74,13 @@
     "webpack-dev-server": "^4.15.1",
     "webpack-merge": "^5.9.0"
   },
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "yarn@3.2.1",
+  "build": {
+    "win": {
+      "sign": false
+    },
+    "mac": {
+      "identity": null
+    }
+  }
 }
